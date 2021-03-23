@@ -5,10 +5,10 @@ https://www.goavega.com/install-apache-kafka-on-windows/
 cd C:\kafka
 git clone
 
-cd C:\kafka\kafka_2.13-2.7.0\bin
+cd C:\kafka\kafka_2.13-2.7.0\bin\windows
 zookeeper-server-start.bat C:\kafka\kafka_2.13-2.7.0\config\zookeeper.properties
 
-cd C:\kafka\kafka_2.13-2.7.0\bin
+cd C:\kafka\kafka_2.13-2.7.0\bin\windows
 kafka-server-start.bat C:\kafka\kafka_2.13-2.7.0\config\server.properties
 
 run project a
